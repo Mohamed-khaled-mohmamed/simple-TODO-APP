@@ -2,6 +2,7 @@ import { appendTaskToUI } from './appendTaskToUI.js';
 import { AppElement } from './elements.js';
 import { generateTaskHTML } from './generateTaskHTML.js';
 import { isTaskListEmpty } from './isTaskListEmpty.js';
+import { showEmptyTaskMessage } from './showEmptyTaskMessage.js';
 import { toggleDarkMode } from './toggleDarkMode.js';
 
 const loadMode = function () {
